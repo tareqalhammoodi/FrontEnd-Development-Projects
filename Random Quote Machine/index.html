@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#202020">
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <!--========== TITLE ==========-->
+    <title>Random Quote Machine</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="quote-box">
+        <div class="text"><i class="fa fa-quote-right"> </i><span id="text"></span></div>
+        <div class="author">- <span id="author"></span></div>
+        <div class="buttons">
+            <button class="button" id="new-quote">New quote</button>
+            <a class="button" id="tweet-quote" title="Tweet this quote!" target="_top"><i class="fa fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer">by <a href="https://tareqalhammoodi.info" target="_blank">Tareq</a></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+  /*===== GOOGLE FONTS =====*/
+  @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Audiowide", cursive;
+}
+
+body {
+  background-color: #202020;
+  color: #909090;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.footer a {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+#quote-box {
+  display: table;
+  position: relative;
+  width: 450px;
+  padding: 50px 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 1.5);
+  background-color: #FFFFFF;
+}
+.text {
+  text-align: left;
+  font-size: 20px;
+  width: 450px;
+  height: auto;
+}
+.text i {
+  margin-right: 15px;
+}
+.author {
+  padding-top: 20px;
+  font-size: 16px;
+  text-align: right;
+  width: 450px;
+  height: auto;
+}
+.buttons {
+  margin-top: 20px;
+  display: block;
+  width: 450px;
+}
+.buttons .button {
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #202020;
+  outline: none;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+.buttons .button:hover {
+  opacity: 0.8;
+}
+.buttons .button#tweet-quote {
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  margin-right: 5px;
+  padding: 0px;
+  padding-top: 8px;
+  height: 30px;
+  width: 40px;
+}
+.buttons .button#new-quote {
+  float: right;
+}
