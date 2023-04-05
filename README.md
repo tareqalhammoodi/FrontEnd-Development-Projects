@@ -1,3 +1,3 @@
 Random quote machine preview :
 
-![pic1](https://user-images.githubusercontent.com/44919941/229618341-f18b3047-ca99-4e75-9eb1-b233f055dd58.png)
+![pic1](https://user-images.githubusercontent.com/44919941/230079539-26b0c223-613c-491a-9df1-be67f802bb6d.png | width=500)
